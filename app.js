@@ -145,9 +145,3 @@ function watchSubmit() {
 }
 
 $(watchSubmit)
-
-
-
-
-
-
