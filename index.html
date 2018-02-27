@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Thinkful Tube</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Montserrat" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- LightBox CSS -->
+  <link rel="stylesheet" type="text/css" href="youtubelightbox.css">
+
+
+</head>
+<body>
+
+<main>
+  <h1>Search <span class="youtube">YouTube</span></h1>
+
+  <form action="#" class="search-form js-search-form">
+    <label for="query"></label>
+    <input type="text" class="query js-query" required>
+    <button type="submit">Search</button>
+  </form>
+
+  <div class="total-results"></div>
+  <div class="results js-search-results"></div>
+
+  <div class="pagination">
+    <button type="button" id="prevPage" class="hidden">Previous</button>
+    <button type="button" id="nextPage" class="hidden">Next</button>
+  </div>
+
+</main>
+
+<!-- Lightbox -->
+<div id="youtubelightbox" class="parent">
+  <div class="centeredchild">
+    <div class="videowrapper">
+      <div id="playerdiv">
+        <iframe width="420" height="315" src=""></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- youTube iFrame -->
+<script src="https://www.youtube.com/iframe_api"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- javaScript -->
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

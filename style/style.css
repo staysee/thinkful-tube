@@ -1,0 +1,106 @@
+* { box-sizing: border-box; }
+
+body {
+	background-color: #b4b3b3;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+main { text-align: center; }
+
+img { border-radius: 10px; }
+
+h1 {
+  font-weight: bolder;
+  color: black;
+  font-size: 2.5em;
+}
+
+.youtube { color: #c42424; }
+
+form { margin-bottom: 25px; }
+
+
+/*QUERY*/
+
+input {
+  width: 250px;
+  height: 30px;
+  border-radius:4px;
+  border: 2px solid #546785;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  color: #4f4d7c;
+}
+
+input:focus {
+  border: 5px solid #546785;
+}
+
+button {
+	padding: 2px;
+	border-radius: 4px;
+	width: 90px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: #646c78;
+  color: white;
+}
+
+button:hover {
+  background-color: #546785
+}
+
+
+/*RESULTS*/
+.total-results { color: black; }
+
+.hidden {
+  display: none;
+}
+
+.results {
+	font-family: 'Montserrat', sans-serif;
+	color: #9a9696;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-item {
+  display: inline-block;
+	min-width: 400px;
+	margin: 25px auto;
+}
+
+.video-title {
+	font-size: 16px;
+  color: #245395;
+  text-transform: uppercase;
+}
+
+.video-description {
+	font-size: 12px;
+  color: black;
+}
+
+.video-title, .video-description {
+  max-width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+}
+
+/*CHANNEL LINKS*/
+.channel-title {
+  color: #596575;
+  font-size: 12px;
+  font-style: italic;
+}
+a { color: white; }
+a:link { color: #6b75ae; }
+a:visited { color: #162888; }
+a:hover { color: #546785; }
