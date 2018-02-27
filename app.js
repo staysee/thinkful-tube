@@ -33,7 +33,7 @@ function getDataFromApi (searchTerm, pagekey, callback){
     part: 'snippet',
     key: API_KEY,
     q: `${searchTerm} in:title`,
-    maxResults: 6,
+    maxResults: 9,
     type: 'video',
     pageToken: pagekey
   }
